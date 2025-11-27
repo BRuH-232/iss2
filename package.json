@@ -10,10 +10,13 @@
         ".": {
             "import": "./dist/iss2.js",
             "require": "./dist/iss2.umd.cjs"
-        }
+        },
+        "./style.css": "./dist/style.css",
+        "./src/styles/main.scss": "./src/styles/main.scss"
     },
     "files": [
-        "dist"
+        "dist",
+        "src/styles"
     ],
     "scripts": {
         "build": "vite build",
